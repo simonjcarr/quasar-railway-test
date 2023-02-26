@@ -1,0 +1,7 @@
+{
+    auto_https off
+}
+
+:{$PORT}
+    root * /srv
+    file_server

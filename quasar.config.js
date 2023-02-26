@@ -11,7 +11,7 @@
 
 const { configure } = require('quasar/wrappers');
 require('dotenv').config();
-
+console.log(`Running port ${process.env.PORT}`)
 module.exports = configure(function (/* ctx */) {
   return {
     eslint: {
